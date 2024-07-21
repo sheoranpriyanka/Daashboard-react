@@ -1,0 +1,55 @@
+{
+  "name": "demo-react",
+  "version": "1.2.2",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "axios": "^1.7.2",
+    "bootstrap": "4.6.2",
+    "chart.js": "3.9.1",
+    "classnames": "2.3.2",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "perfect-scrollbar": "1.5.5",
+    "prop-types": "15.8.1",
+    "react": ">=16.8.0",
+    "react-datepicker": "^7.3.0",
+    "react-dom": ">=16.8.0",
+    "react-notification-alert": "0.0.13",
+    "react-router-dom": "6.11.1",
+    "react-scripts": "5.0.1",
+    "sass": "1.62.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "optionalDependencies": {
+    "reactstrap": "8.10.1"
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4",
+    "typescript": "5.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
